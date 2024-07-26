@@ -31,7 +31,7 @@ class MainActivity : AppCompatActivity() {
         val number1 = binding.editTextNumber1.text.toString()
         val number2 = binding.editTextNumber2.text.toString()
         val result = number1.toInt() + number2.toInt()
-        binding.textResult.text="${result}"
+        binding.textResult.text="${number1} + ${number2} = ${result}"
         //Toast.makeText(this,"Please enter numbers",Toast.LENGTH_LONG)
         //binding.textResult.text="Wrong proccess"
     }
@@ -39,21 +39,21 @@ class MainActivity : AppCompatActivity() {
         val number1 = binding.editTextNumber1.text.toString()
         val number2 = binding.editTextNumber2.text.toString()
         val result = number1.toInt() - number2.toInt()
-        binding.textResult.text="${result}"
+        binding.textResult.text="${number1} - ${number2} = ${result}"
 
     }
     fun Multiplication(view: View){
         val number1 = binding.editTextNumber1.text.toString()
         val number2 = binding.editTextNumber2.text.toString()
         val result = number1.toInt() * number2.toInt()
-        binding.textResult.text="${result}"
+        binding.textResult.text="${number1} * ${number2} = ${result}"
 
     }
     fun Division(view: View){
         val number1 = binding.editTextNumber1.text.toString()
         val number2 = binding.editTextNumber2.text.toString()
         val result = number1.toDouble() / number2.toDouble()
-        binding.textResult.text="${result}"
+        binding.textResult.text="${number1} / ${number2} = ${result}"
 
     }
 
