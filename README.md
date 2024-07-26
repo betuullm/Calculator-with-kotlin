@@ -5,7 +5,8 @@ This is a simple calculator application developed using Kotlin. It includes basi
 ## Screenshots 📱
 
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/ca5c26c6-22e9-4b77-b975-8a35084accef" width="200" />
+  <img src="https://github.com/user-attachments/assets/9aaf9df7-57df-4e2f-904f-758b8d830ddf" width="200" />
+  <img src="https://github.com/user-attachments/assets/6ca5eb1b-958c-4766-951b-78acb5bb6f41" width="200" />
   <img src="https://github.com/user-attachments/assets/24b42e00-011b-4d1b-b13a-95ef6cd15984" width="200" />
 </div>
 
