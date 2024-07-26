@@ -5,6 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#FFFFFF"
     tools:context=".MainActivity">
 
     <EditText
@@ -156,7 +157,7 @@
         android:id="@+id/imageView2"
         android:layout_width="147dp"
         android:layout_height="117dp"
-        android:layout_marginStart="32dp"
+        android:layout_marginStart="16dp"
         android:layout_marginTop="40dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -166,13 +167,13 @@
 
     <TextView
         android:id="@+id/textResult"
-        android:layout_width="195dp"
-        android:layout_height="33dp"
+        android:layout_width="222dp"
+        android:layout_height="35dp"
         android:layout_marginTop="4dp"
         android:fontFamily="casual"
-        android:textAlignment="center"
+        android:textAlignment="viewStart"
         android:textColor="#FF9800"
-        android:textSize="24sp"
+        android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toEndOf="@+id/imageView2"
